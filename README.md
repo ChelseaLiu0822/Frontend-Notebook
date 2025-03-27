@@ -1,18 +1,18 @@
 ---
-cover: https://gitbookio.github.io/onboarding-template-images/header.png
-coverY: 79.97909407665504
+cover: .gitbook/assets/Frame 1.svg
+coverY: 0
 layout:
   cover:
     visible: true
     size: full
   title:
-    visible: true
+    visible: false
   description:
     visible: false
   tableOfContents:
     visible: true
   outline:
-    visible: false
+    visible: true
   pagination:
     visible: true
 ---
