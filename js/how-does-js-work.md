@@ -31,19 +31,19 @@ There are 3 ways to translate code:
 
 ### **3.1 Compilation**
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption><p><a href="https://www.udemy.com/the-complete-javascript-course/?couponCode=C3GITHUB10">https://www.udemy.com/the-complete-javascript-course/?couponCode=C3GITHUB10</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption><p><a href="https://www.udemy.com/the-complete-javascript-course/?couponCode=C3GITHUB10">https://www.udemy.com/the-complete-javascript-course/?couponCode=C3GITHUB10</a></p></figcaption></figure>
 
 * **Compilation**: Entire code is converted into machine code at once, and written to a portable binary file that can be executed by a computer.
 
 ### **3.2 Interpretation**
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p><a href="https://www.udemy.com/the-complete-javascript-course/?couponCode=C3GITHUB10">https://www.udemy.com/the-complete-javascript-course/?couponCode=C3GITHUB10</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption><p><a href="https://www.udemy.com/the-complete-javascript-course/?couponCode=C3GITHUB10">https://www.udemy.com/the-complete-javascript-course/?couponCode=C3GITHUB10</a></p></figcaption></figure>
 
 * **Interpretation**: The source code is read **line by line** and executed **immediately** without generating a separate executable file.
 
 ### **3.3 JavaScript’s Evolution: From Interpretation to Just-In-Time (JIT) Compilation**
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption><p><a href="https://www.udemy.com/the-complete-javascript-course/?couponCode=C3GITHUB10">https://www.udemy.com/the-complete-javascript-course/?couponCode=C3GITHUB10</a></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption><p><a href="https://www.udemy.com/the-complete-javascript-course/?couponCode=C3GITHUB10">https://www.udemy.com/the-complete-javascript-course/?couponCode=C3GITHUB10</a></p></figcaption></figure>
 
 The entire code is converted into machine code at once, then executed immediately. (The diff between JIT and traditional compilation is portable file.)
 
@@ -328,7 +328,7 @@ const calcAge = function (birthYear) {
 calcAge(1991);
 ```
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## 9 Regular Function vs Arrow Function
 
@@ -483,7 +483,7 @@ addExpr(2, 5);
 addExpr(2, 5, 8, 12);
 ```
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```javascript
 var addArrow = (...args) => {
@@ -493,7 +493,7 @@ var addArrow = (...args) => {
 addArrow(2, 5, 8);
 ```
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### **9.6 Key Differences Between Regular Functions and Arrow Functions**
 

@@ -2,6 +2,14 @@
 
 * [👋 Welcome](README.md)
 
+## HTML
+
+* [🧱 HTML base](html/html-base.md)
+
+***
+
+* [Page](page.md)
+
 ## JS
 
 * [🧱 Foundation](js/foundation.md)
