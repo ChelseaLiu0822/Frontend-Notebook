@@ -62,13 +62,13 @@ The following tags can be used in the head section:
 
 💡 _Meta tags help with SEO (Search Engine Optimization) and are mainly used by digital marketers._
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.2 \<title> Tag
 
 Appears on the browser tab
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```html
 <title>My First HTML Page</title>

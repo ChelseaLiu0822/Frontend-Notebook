@@ -8,7 +8,7 @@
 
 ***
 
-* [Page](page.md)
+* [21 Interview Questions](21-interview-questions.md)
 
 ## JS
 
