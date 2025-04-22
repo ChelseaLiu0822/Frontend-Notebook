@@ -185,3 +185,147 @@ Other examples:
 * `&lt;` → `<`
 * `&gt;` → `>`
 * `&amp;` → `&`
+
+### 4.5 Hyperlink `<a>`
+
+The `<a>` tag defines a hyperlink, which is used to link from one page to another.
+
+The most important attribute of the `<a>` element is the `href` attribute, which indicates the link's destination.
+
+By default, links will appear as follows in all browsers:
+
+* An unvisited link is underlined and blue
+* A visited link is underlined and purple
+* An active link is underlined and red
+
+[https://www.w3schools.com/tags/tag\_a.asp](https://www.w3schools.com/tags/tag_a.asp)
+
+### 4.6 Tables
+
+{% embed url="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_table_test" %}
+
+The `<table>` tag defines an HTML table.
+
+An HTML table consists of one `<table>` element and one or more [\<tr>](https://www.w3schools.com/tags/tag_tr.asp), [\<th>](https://www.w3schools.com/tags/tag_th.asp), and [\<td>](https://www.w3schools.com/tags/tag_td.asp) elements.
+
+The \<tr> element defines a table row, the \<th> element defines a table header, and the \<td> element defines a table cell.
+
+An HTML table may also include [\<caption>](https://www.w3schools.com/tags/tag_caption.asp), [\<colgroup>](https://www.w3schools.com/tags/tag_colgroup.asp), [\<thead>](https://www.w3schools.com/tags/tag_thead.asp), [\<tfoot>](https://www.w3schools.com/tags/tag_tfoot.asp), and [\<tbody>](https://www.w3schools.com/tags/tag_tbody.asp) elements.
+
+```html
+<table border="5" cellpadding="15" cellspacing="30">
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
+```
+
+<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+
+```html
+<table border="1">
+  <tr>
+    <th rowspan=4>value</th>
+    <th colspan=3>names</th>
+  </tr>
+  <tr>
+    <th>Month</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>January</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>February</td>
+    <td>$80</td>
+  </tr>
+</table>
+```
+
+<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+
+### 4.7 Audio & Video
+
+The `<audio>` tag is used to embed sound content in a document, such as music or other audio streams.
+
+The `<audio>` tag contains one or more [`<source>`](https://www.w3schools.com/tags/tag_source.asp) tags with different audio sources. The browser will choose the first source it supports.
+
+The text between the `<audio>` and `</audio>` tags will only be displayed in browsers that do not support the `<audio>` element.
+
+There are three supported audio formats in HTML: MP3, WAV, and OGG.
+
+Example for audio:
+
+{% embed url="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_audio" %}
+
+The `<video>` tag is used to embed video content in a document, such as a movie clip or other video streams.
+
+The `<video>` tag contains one or more [`<source>`](https://www.w3schools.com/tags/tag_source.asp) tags with different video sources. The browser will choose the first source it supports.
+
+The text between the `<video>` and `</video>` tags will only be displayed in browsers that do not support the \<video> element.
+
+There are three supported video formats in HTML: MP4, WebM, and OGG.
+
+example for video:
+
+{% embed url="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml5_video" %}
+
+:question:What if I want a YouTube video or a video from google drive?
+
+use `iframe`
+
+[![Edit Frontend\_notebook](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/frontend-notebook-zpljff)
+
+## 5 Type of Elements
+
+**Block and Inline Elements**
+
+* **Block Elements**:\
+  They start on a new line and take up the full width of their container, like `<p>`, `<h1>` to `<h6>`, `<div>`, `<ul>`, etc.\
+  They are used to structure the main content of a web page.
+* **Inline Elements**:\
+  They don't start with a new line and only take up as much width as necessary.\
+  Examples: `<a>`, `<span>`, `<label>`, `<img>`, etc.\
+  They are used within block-level elements to style or format specific parts of the content.
+
+## 6 HTML5 Semantic Tags
+
+HTML5 introduced several **semantic tags** that give meaning to the structure of web pages. These elements help both developers and browsers (including assistive technologies) understand the content better.
+
+### ✅ Common HTML5 Semantic Tags
+
+<figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+
+| Tag            | Description                                                                                    |
+| -------------- | ---------------------------------------------------------------------------------------------- |
+| `<header>`     | Represents the introductory content or a set of navigational links.                            |
+| `<nav>`        | Defines a section containing navigation links.                                                 |
+| `<main>`       | Represents the main content of the document (should appear only once per page).                |
+| `<section>`    | Represents a standalone section of related content.                                            |
+| `<article>`    | Represents a self-contained composition, like a blog post or news article.                     |
+| `<aside>`      | Contains content that is tangentially related to the main content (e.g., sidebars, tips, ads). |
+| `<footer>`     | Represents the footer of a section or page (usually includes copyright, links).                |
+| `<figure>`     | Used to group media content (e.g., images, charts) with a caption.                             |
+| `<figcaption>` | Provides a caption or description for the `<figure>` content.                                  |
+
+### 📌 Why Use Semantic Tags?
+
+* 🔍 **Improves Readability**: Makes the structure of your HTML clearer for developers.
+* ♿ **Accessibility**: Better support for screen readers and other assistive tools.
+* 🎯 **Clear Structure**: Easier to style and maintain.
+* 🌐 **SEO Friendly**: Helps search engines better understand and index your content.
+
+### 📘 Example:
+
+[![Edit Frontend\_notebook](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/frontend-notebook-zpljff)
+
