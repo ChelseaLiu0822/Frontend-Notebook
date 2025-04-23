@@ -36,7 +36,7 @@ HTML (HyperText Markup Language) is a markup language used to describe web pages
 
 If neither `defer` nor `async` is used, the browser will immediately download and execute the script. It does not wait for subsequent document elements to load — execution begins as soon as the script is encountered, blocking further document parsing.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 **Key Differences:**
 

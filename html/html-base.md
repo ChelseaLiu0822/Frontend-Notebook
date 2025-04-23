@@ -62,13 +62,13 @@ The following tags can be used in the head section:
 
 💡 _Meta tags help with SEO (Search Engine Optimization) and are mainly used by digital marketers._
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.2 \<title> Tag
 
 Appears on the browser tab
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```html
 <title>My First HTML Page</title>
@@ -95,12 +95,10 @@ Example use:
 <sup>2</sup> <sub>2</sub>
 ```
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Superscript (`<sup>`) for expressions like 22
 * Subscript (`<sub>`) for H2O
-
-[![Edit Frontend\_notebook](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/frontend-notebook-zpljff)
 
 ### 4.2 🖼️ Inserting Images
 
@@ -130,7 +128,7 @@ Internal image example:
 </ol>
 ```
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 Types: `1` (default), `A`, `a`, `I`, `i`\
 `start`: Starting number/letter
@@ -144,13 +142,13 @@ Types: `1` (default), `A`, `a`, `I`, `i`\
 </ul>
 ```
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Types: `disc` (default), `circle`, `square`
 
 #### Nested List&#x20;
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```html
 <ol type="I">
@@ -169,8 +167,6 @@ Types: `disc` (default), `circle`, `square`
   </li>
 </ol>
 ```
-
-[![Edit Frontend\_notebook](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/frontend-notebook-zpljff)
 
 ### 4.4 ✏️ Special Characters
 
@@ -284,7 +280,7 @@ example for video:
 
 use `iframe`
 
-[![Edit Frontend\_notebook](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/frontend-notebook-zpljff)
+{% embed url="https://codepen.io/ChelseaLiu0822/embed/NPPRXZQ?default-tab=html,result" %}
 
 ## 5 Type of Elements
 
@@ -325,7 +321,120 @@ HTML5 introduced several **semantic tags** that give meaning to the structure of
 * 🎯 **Clear Structure**: Easier to style and maintain.
 * 🌐 **SEO Friendly**: Helps search engines better understand and index your content.
 
-### 📘 Example:
+### 📘 Example
 
-[![Edit Frontend\_notebook](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/sandbox/frontend-notebook-zpljff)
+{% embed url="https://codepen.io/ChelseaLiu0822/embed/vEEXpmW?default-tab=html,result" fullWidth="true" %}
 
+## 7 Form
+
+An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+
+### **7.1 Attributes of `<form>`**
+
+1. `name`
+
+The name of the form. The value must not be the empty string, and must be unique among the `form` elements in the forms collection that it is in, if any.
+
+2. [`method`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/form#method)
+
+The [HTTP](https://developer.mozilla.org/en-US/docs/Web/HTTP) method to submit the form with. The only allowed methods/values are (case insensitive):
+
+* `post`: The [`POST`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods/POST) method; form data sent as the [request body](https://developer.mozilla.org/en-US/docs/Web/API/Request/body).
+* `get` (default): The [`GET`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods/GET); form data appended to the `action` URL with a `?` separator. Use this method when the form [has no side effects](https://developer.mozilla.org/en-US/docs/Glossary/Idempotent).
+* `dialog`: When the form is inside a [`<dialog>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/dialog), closes the dialog and causes a `submit` event to be fired on submission, without submitting data or clearing the form.
+
+This value is overridden by [`formmethod`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button#formmethod) attributes on [`<button>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button), [`<input type="submit">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/submit), or [`<input type="image">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/image) elements.
+
+{% hint style="info" %}
+**Difference between `get` and `post`:**
+
+* `get` is an **insecure method** because it displays form field values in the URL.
+* `post` is a **secure method**, sends data to the server in a secure format, and allows sending large amounts of data.
+{% endhint %}
+
+3. [`action`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/form#action)
+
+The URL that processes the form submission. This value can be overridden by a [`formaction`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button#formaction) attribute on a [`<button>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button), [`<input type="submit">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/submit), or [`<input type="image">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/image) element. This attribute is ignored when `method="dialog"` is set.
+
+4. [`enctype`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/form#enctype)
+
+If the value of the `method` attribute is `post`, `enctype` is the [MIME type](https://en.wikipedia.org/wiki/Mime_type) of the form submission. Possible values:
+
+* `application/x-www-form-urlencoded`: The default value.
+* `multipart/form-data`: Use this if the form contains [`<input>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input) elements with `type=file`.
+* `text/plain`: Useful for debugging purposes.
+
+This value can be overridden by [`formenctype`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button#formenctype) attributes on [`<button>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/button), [`<input type="submit">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/submit), or [`<input type="image">`](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input/image) elements.
+
+### ✅ Example 1: method&#x20;
+
+{% embed url="https://codepen.io/ChelseaLiu0822/embed/XJJjZBZ?default-tab=html,result" %}
+
+Try to enter a word and click the button, in the jump-out website, your can tell the differences between post and get through the "url" in that website.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+
+#### :large\_blue\_diamond:Form Submission Workflow (GET / POST)
+
+1. User fills in form fields
+2. Clicks `<input type="submit">` or `<button type="submit">`
+3. The browser processes `<form>` attributes:
+   * `action`: Specifies where to send the data
+   * `method`: Specifies how to send the data (`GET` or `POST`)
+   * `enctype`: Specifies the data encoding type (used with `POST` only)
+4. Submit event is triggered
+   * If not prevented by JavaScript, the browser proceeds with default submission
+5. The browser packages the data and submits it
+6. The page reloads and navigates to the `action` URL
+7. The server responds and renders the new page
+
+#### :large\_blue\_diamond:Dialog Form Workflow (`method="dialog"`)
+
+1. User clicks a button to open the `<dialog>`
+2. Inside the `<dialog>`, a form with `method="dialog"` is shown
+3. User clicks a button to respond (e.g., Accept or Cancel)
+4. Browser performs:
+   * Auto-closes the dialog
+   * Triggers the `submit` event on the form
+   * Sets `dialog.returnValue` based on the clicked button
+   * ❌ Does **not** submit data, reload the page, or navigate
+5. JavaScript can access the returned value via `dialog.returnValue`
+
+### ✅ Example 2: Overriding Method and Action with `formmethod` / `formaction`
+
+{% embed url="https://codepen.io/ChelseaLiu0822/embed/ZYYpmej?default-tab=html,result" %}
+
+| Elements                           | Effects                               |
+| ---------------------------------- | ------------------------------------- |
+| `<form method="get" action="...">` | Default way(can be covered by button) |
+| `<button formmethod="post">`       | Cover`form`  's method                |
+| `<button formaction="...">`        | Cover `form` 's action                |
+
+📌 **Notes**:
+
+* The second button overrides the form’s default `method` and `action`
+* Useful for handling multiple submission options
+
+### ✅ Example 3: File Upload Form (`method="post"` with `enctype`)
+
+{% embed url="https://codepen.io/ChelseaLiu0822/embed/OPPRajp?default-tab=html,result" %}
+
+When you select a file and click **Upload**:
+
+* The file is sent to `https://httpbin.org/post`
+* The response will show metadata including your file under the `"files"` or `"form"` field in a JSON format
+* You won’t see the file itself stored (because it's a test endpoint), but you'll see the request structure
+
+### 7.2 `input` element
+
+To see all types of the input element go [there](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/input).
+
+Here is a practice.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+{% embed url="https://codepen.io/ChelseaLiu0822/embed/WbbGWXP?default-tab=html,result" %}
