@@ -62,13 +62,13 @@ The following tags can be used in the head section:
 
 💡 _Meta tags help with SEO (Search Engine Optimization) and are mainly used by digital marketers._
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### 3.2 \<title> Tag
 
 Appears on the browser tab
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ```html
 <title>My First HTML Page</title>
@@ -95,7 +95,7 @@ Example use:
 <sup>2</sup> <sub>2</sub>
 ```
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Superscript (`<sup>`) for expressions like 22
 * Subscript (`<sub>`) for H2O
@@ -372,7 +372,7 @@ This value can be overridden by [`formenctype`](https://developer.mozilla.org/en
 
 Try to enter a word and click the button, in the jump-out website, your can tell the differences between post and get through the "url" in that website.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -435,6 +435,6 @@ To see all types of the input element go [there](https://developer.mozilla.org/e
 
 Here is a practice.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://codepen.io/ChelseaLiu0822/embed/WbbGWXP?default-tab=html,result" %}
