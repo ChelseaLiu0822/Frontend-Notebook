@@ -209,6 +209,8 @@ Create a registration form with:
   * Passwords must match
   * Use **regex** for validation
 
+{% embed url="https://codepen.io/ChelseaLiu0822/embed/raaKygb?default-tab=html,result" %}
+
 #### 🔹 Task 2: Image Slider
 
 * Create an image slider using `setInterval`
